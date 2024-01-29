@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/about-me-containers.css">
 </head>
 
 
@@ -15,31 +16,59 @@
     <!--Header (Used in every page)-->
     <header class="header-main">
         <div class="header-main-logo">
-            <img>
-            <nav class="header-main-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
+        <nav class="header-main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact-me.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
             
-            <div class="header-main-sm">
-                <a href="https://www.instagram.com/itz.1saac/"><div class="header-main-sm-in"></div></a>
-                <a href="https://www.linkedin.com/in/isaac-montano99/"><div class="header-main-sm-ln"></div></a>
-                <a href="https://github.com/IsaacMontano"><div class="header-main-sm-gh"></div></a>
+        <div class="header-main-sm">
+            <a href="https://www.instagram.com/itz.1saac/"><div class="header-main-sm-in"></div></a>
+            <a href="https://www.linkedin.com/in/isaac-montano99/"><div class="header-main-sm-ln"></div></a>
+            <a href="https://github.com/IsaacMontano"><div class="header-main-sm-gh"></div></a>
     
-            </div>
-        </header>
+        </div>
+    </header>
 
-        <!--About section of the website-->
-        <section class=".container-about">
-            <div class=".container-about"><title>ABOUT ME</title></div>
-            <div class=".container-about-images"></div>
-            <div class=".container-about-skills"></div>
-
-        </section>
-
+        <!--Title and photos for page-->
+        <container class="parent-container-title">
+            <div class="container-title">
+                <h1>About Me!</h1>
+            </div> 
+        </container>    
+        <div class="image-container">
+            <img src="/images/interview-photo.jpg" alt="interview-photo">
+            <img src="/images/graduation-photo.jpg" alt="graduation-photo">
+            <img src="/images/shpe-presidents-summit.jpg" alt="shpe-presidents-summit">
+        </div>    
+        
+        <!--About me section. It feels weird to talk about yourself like this-->
+        <div class="container-about">
+            <h1>Who am I?</h1>
+            <p>I am a recent computer science graduate from Bradley University, where I was the president of the Society of Hispanic Professional Engineers (SHPE) and 
+                a member of Alpha Psi Lambda National Inc. I am a software engineer who is looking to get into Data Science and Cybersecurity. My most recent project is this 
+                website so that I could learn a bit about front-end and back-end development. I will be continually updating the style and layout of this website as well as any new projects that I am working on.
+            </p>
+            <p>
+                My passion lies in empowering and supporting others, and my leadership experience in SHPE has provided valuable insights into effectively assisting my peers in reaching their goals.
+                I am also passionate about learning new skills and technologies. I'm always looking for new ways to improve myself and my skills. The way that I look at life is that I need to be continually growing and learning. 
+                I have found that I am unhappy being complacent in my personal and professional life.
+                When I'm not engaged in coding interview practice on platforms like AlgoExpert.io or watching coding tutorials on YouTube, you'll likely find me at the gym, playing soccer, or relaxing with my friends.
+            </p>
+            <p>
+                I am currently looking for a full-time software engineering position in the Chicago area. If you would like to contact me, please use the contact form on the contact page.
+                I have experience in Python and C++, am familiar with SQL and Java, and I am currently learning HTML/CSS along with improving my other software languages. 
+                I have experience with data science through JuPyter Notebooks and I have experience with cybersecurity through my classes at Bradley University.
+            </p>
+            <p>
+                If you would like a copy of my resume, please click the link below. Please feel free to also connect with me on LinkedIn using the icon in the header!
+            </p>
+            <a href="/stuff people can download/isaac-montano-resume.pdf" download>Download my resume!</a>
+        </div>
 </body>
+</html>
+```
