@@ -42,10 +42,11 @@
         </div>
 
         <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Your name" required>
-                <input type="email" placeholder="Your email" required>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here" required></textarea>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+                <input type="hidden" name="access_key" value="cd789654-e6f0-4cfd-985e-ae1fcc4a201f">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message here" required></textarea>
                 <input type="submit" name="" value="Send Message" class="send-btn">
             </form>
         </div>
